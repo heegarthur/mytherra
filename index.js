@@ -18,7 +18,7 @@ function login(){
     const login = document.getElementById("login").value;
     const password = document.getElementById("password").value;
     if (login == "ivo" && password == "mytherra"){
-        document.location.href = "Mindex.html";
+        document.location.href = "main.html";
     } else{
         alert("wrong login or password");
     }
