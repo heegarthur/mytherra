@@ -8,10 +8,8 @@
 /* Body styling */
 body {
   margin-bottom: 1.5rem;
-  color: #a3a9b3; /* neutraal lichtgrijs */
-  white-space: pre-line;
-  background: #000000; /* bijna zwart met blauw/paarse tint */
-  color: #c0c7d3; /* lichtgrijs/blauw */
+  background: #000000;
+  color: #c0c7d3;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
@@ -24,26 +22,30 @@ body {
 /* Container div styling */
 div.container {
   max-width: 800px;
-  background: rgba(30, 30, 45, 0.9); /* donker staalgrijs/paars */
+  background: rgba(30, 30, 45, 0.9);
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 0 18px #1de9b6; /* electric cyan glow */
+  box-shadow: 0 0 18px #1de9b6;
   margin-bottom: 2rem;
   border: 2px solid #1de9b6;
+  white-space: pre-line;
 }
 
 /* Headings */
-h1, h2, h3 {
-  color: #1de9b6; /* electric cyan */
+h1,
+h2,
+h3 {
+  color: #1de9b6;
   margin-bottom: 1rem;
   font-weight: 900;
   text-shadow: 0 0 12px #18c9a9;
 }
 
-
 /* Buttons */
 button {
-  background: linear-gradient(135deg, #b71c1c 0%, #d84315 100%); /* donkerrood naar oranje-rood */
+  margin: 0.5rem 0;
+  /* verticale ruimte boven & onder elke knop */
+  background: linear-gradient(135deg, #b71c1c 0%, #d84315 100%);
   border: none;
   color: white;
   padding: 0.75rem 2rem;
@@ -112,7 +114,6 @@ a:hover {
   align-items: center;
 }
 
-
 ::-webkit-scrollbar-track {
   background: #121218;
 }
@@ -123,64 +124,79 @@ a:hover {
   border: 2px solid #121218;
 }
 
-form{
+form {
   text-align: center;
 }
 
-.location{
+.location {
   background: linear-gradient(135deg, #00c3ff70 0%, #00445870 100%);
   background-color: #00779b70;
-  font-size:large;
+  font-size: large;
   font-weight: bolder;
   text-align: center;
   border-radius: 20px;
-  padding: 8px 12px;
-  text-shadow: 0px 12px 2px #ffffff31;
-  transition: 0.2s ease-in-out;
-  cursor: default;
   padding: 1rem;
   margin-top: 30px;
   margin-bottom: 30px;
+  text-shadow: 0px 12px 2px #ffffff31;
+  transition: 0.2s ease-in-out;
+  cursor: default;
+  white-space: pre-line;
 }
-.location:hover{
+
+.location:hover {
   background: linear-gradient(135deg, #0033428e 0%, #00c3ffa6 100%);
   font-weight: 100;
   font-size: x-large;
   padding: 20px 20px;
   text-shadow: 0px 10px 2px #000000;
 }
-.pers1{
+
+.pers1 {
   background-color: #b3cc426e;
 }
-.pers2{
+
+.pers2 {
   background-color: #42cc496e;
 }
-.pers3{
+
+.pers3 {
   background-color: #4244cc6e;
 }
-.pers4{
+
+.pers4 {
   background-color: #cc42426e;
 }
-.pers5{
+
+.pers5 {
   background-color: #bde64e;
 }
-.tpers1{
+
+.tpers1,
+.tpers2,
+.tpers3,
+.tpers4,
+.tpers5 {
+  font-style: italic;
+  white-space: pre-line;
+}
+
+.tpers1 {
   background-color: #b3cc4231;
-  font-style: italic;
 }
-.tpers2{
+
+.tpers2 {
   background-color: #42cc4225;
-  font-style: italic;
 }
-.tpers3{
+
+.tpers3 {
   background-color: #4244cc3d;
-  font-style: italic;
 }
-.tpers4{
+
+.tpers4 {
   background-color: #cc42423f;
-  font-style: italic;
 }
-.tpers4{
+
+.tpers5 {
   background-color: #bde64e88;
-  font-style: italic;
 }
